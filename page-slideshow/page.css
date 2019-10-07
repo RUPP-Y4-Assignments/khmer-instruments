@@ -1,0 +1,26 @@
+.slide-page{
+    position: relative;
+    padding: 0;
+    width: 100%;
+    height: 88.1vh;
+    overflow: hidden;
+    /* background: red; */
+}
+.allSlide{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    z-index: 9;
+    /* background: orangered; */
+}
+.click-link{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 88.1vh;
+    z-index: 10;
+}

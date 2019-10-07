@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>KhmerIn</title>
+
+    <!-- Boostrap Font awesome cdn -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- Customize css -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- jQuery cdn  -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <style>
+    .wrap{
+        height: 100vh;
+        background: red;
+    }
+    .slideshow-menu{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        padding: 0;
+        background: green;
+    }
+    .allSlide{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+    }
+    </style>
+</head>
+<body>
+    <div class="container wrap">
+        <div class="row">
+            <div class="col-xl-12 slideshow-menu">
+                <a class="allSlide" href="page-slideshow/home.html">
+                    <iframe class="slideshow" src="page-slideshow/home.html"></iframe>
+                    <!-- <a href="document.html" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></a>     -->
+                </a>
+                <a class="allSlide" href="page-slideshow/document.html">
+                    <iframe class="slideshow" src="blog.html"></iframe>
+                    <!-- <a href="document.html" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></a>     -->
+                </a>
+                <a class="allSlide" href="page-slideshow/blog.html">
+                    <iframe class="slideshow" src="blog.html"></iframe>
+                    <!-- <a href="document.html" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></a>     -->
+                </a>
+                <a class="allSlide" href="page-slideshow/event.html">
+                    <iframe class="slideshow" src="events.html"></iframe>
+                    <!-- <a href="document.html" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></a>     -->
+                </a>
+                <a class="allSlide" href="page-slideshow/about us.html">
+                    <iframe class="slideshow" src="about us.html"></iframe>
+                    <!-- <a href="document.html" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></a>     -->
+                </a>
+                <i class="fas fa-chevron-left prev" onmouseover="pauseSlides()" onclick="plusSlides(-2)"></i>
+                <i class="fas fa-chevron-right next" onmouseover="pauseSlides()" onclick="plusSlides(0)"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

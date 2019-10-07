@@ -1,0 +1,94 @@
+.pop-up{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 20;
+    display: none;
+}
+.fix-comment{
+    position: absolute;
+    top: 5%;
+    left: 30%;
+    width: 40%;
+    height: 90vh;
+    background: white;
+    border: 1px solid black;
+    overflow-y: scroll;
+}
+.fix-comment .close{
+    font-size: 20px;
+}
+.close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: black;
+    cursor: pointer;
+}
+.write-comment{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.count-comments{
+    float: left;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    border-top: 1px solid rgb(223, 220, 220);
+}
+.count-like{
+    float: left;
+    width: 50%;
+    font-size: 20px;
+    text-align: center;
+}
+.count-comment{
+    float: left;
+    width: 10%;
+    font-size: 20px;
+    text-align: center;
+}
+.string-comment{
+    float: right;
+    width: 40%;
+    font-size: 20px;
+}
+.comments{
+    float: left;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-left: none;
+    border-left: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.like{
+    text-decoration: none;
+    float: left;
+    width: 50%;
+    padding: 6px 0;
+    cursor: pointer;
+}
+.like i{
+    margin-left: 20%;
+}
+.comment{
+    text-decoration: none;
+    float: left;
+    width: 50%;
+    padding: 6px 0;
+    cursor: pointer;
+}
+.comment i{
+    margin-left: 15%;
+}
+.like:hover, .comment:hover{
+    background: rgba(0,0,0,.1);
+}
